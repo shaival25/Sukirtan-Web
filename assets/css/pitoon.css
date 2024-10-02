@@ -2560,6 +2560,8 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .main-slider-two__shadow {
@@ -6718,7 +6720,7 @@ ul {
 
 .counter-one__single {
   position: relative;
-  flex: 0 0 25%;
+  flex: 0 0 33%;
   max-width: 25%;
   width: 100%;
   text-align: center;
@@ -6738,6 +6740,7 @@ ul {
 .counter-one__single:first-child:before {
   display: none;
 }
+
 
 .counter-one__icon {
   position: relative;
